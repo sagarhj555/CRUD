@@ -55,7 +55,7 @@ public class crudController {
     }
 
     @GetMapping("/load")
-    public String loadData(){
+    public String loadData() {
         return cr.load();
     }
 }

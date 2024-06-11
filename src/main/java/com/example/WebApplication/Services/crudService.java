@@ -4,6 +4,7 @@ import com.example.WebApplication.Model.StudDetails;
 import com.example.WebApplication.Repository.crudRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +12,8 @@ import java.util.List;
 @Service
 public class crudService {
 
-    @Autowired crudRepo crudRepo;
+    @Autowired
+    crudRepo crudRepo;
 
     List<StudDetails> ls = new ArrayList(Arrays.asList(new StudDetails(1, "one", 12346789, "book1"),
             new StudDetails(2, "two", 7895465, "book2"),

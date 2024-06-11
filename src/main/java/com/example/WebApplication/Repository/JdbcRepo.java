@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class JdbcRepo {
 
-    @Autowired JdbcTemplate jdbc;
+    @Autowired
+    JdbcTemplate jdbc;
 
     public JdbcTemplate getJdbc() {
         return jdbc;

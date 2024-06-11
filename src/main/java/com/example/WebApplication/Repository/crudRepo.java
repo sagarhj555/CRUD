@@ -13,9 +13,9 @@ public interface crudRepo extends JpaRepository<StudDetails, Integer> {
 //    @Query("select s from StudDetails s where s.name = ?1")
 //    List<StudDetails> getByKey(String key);
 
-
-    /** Above and Below method does the same job*/
-
+    /**
+     * Above and Below method does the same job
+     */
 
     List<StudDetails> getByName(String name);
 }

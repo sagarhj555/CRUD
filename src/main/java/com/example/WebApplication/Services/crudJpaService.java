@@ -27,7 +27,7 @@ public class crudJpaService {
     }
 
     public String updStud(StudDetails st) {
-        crudRepo.save(st)   ;
+        crudRepo.save(st);
         return "updated";
     }
 
